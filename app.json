@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Ticket-Parking",
+    "slug": "ticket-parking",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.ticketparking.app",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.ticketparking.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a3a97773-cc71-46d5-9539-89a86e6be8e8"
+      }
+    }
+  }
+}
